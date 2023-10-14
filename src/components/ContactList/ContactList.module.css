@@ -1,0 +1,16 @@
+.contacts__list{
+  display: flex;
+  width: 320px;
+  gap: 16px;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.btn_delet{
+  height: 24px;
+  border-radius: 4px;
+  background-color: lightcoral;
+  cursor: pointer;
+}

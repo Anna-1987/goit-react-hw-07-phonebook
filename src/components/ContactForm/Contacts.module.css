@@ -1,0 +1,42 @@
+.contacts__form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 auto;
+  width: 260px;
+  height: 140px;
+  padding: 8px;
+  
+  border: 2px solid green;
+  background-color: lightgreen;
+  border-radius: 8px;
+  
+  }
+  
+  .input{
+       padding-left: 4px;
+     border-radius: 4px;
+     margin-left: 4px;
+     outline: transparent;
+  
+  }
+  
+  .btn__add {
+      font-size: 12px;
+      color: rgba(51, 51, 51, 0.8);
+      margin-top: 34px;
+      margin-left: 90px;
+      padding: 4px;
+      border: none;
+      box-shadow: 0 0 2px #333;
+      cursor: pointer;
+      background-color: rgba(206, 204, 206, 0.742);
+      border-radius: 5px;
+      transition-duration: 400ms;
+     
+    }
+    
+    .btn__add:hover {
+      transform: scale(1.1);
+      background-color: rgba(5, 103, 18, 0.2);
+    }
